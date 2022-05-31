@@ -3,14 +3,14 @@
 {% block body %}
 <div class="jumbotron-img p-2 mb-2">
     <div class="container">
-        <h1 class="display-4">Your Questions Answered</h1>
-        <div class="lead">And even answers for those questions you didn't think to ask!</div>
+        <h1 class="display-4"><i class="fab fa-symfony"></i> Symforum <i class="fab fa-symfony"></i></h1>
+        <div class="lead">Your Questions Answered</div>
     </div>
 </div>
 <div class="container">
     <div class="row mb-3">
         <div class="col">
-            <button class="btn btn-question">Ask a Question</button>
+            <a href="{{ path('app_question_add') }}" class="btn btn-outline-danger">Ask a Question</a>
         </div>
     </div>
     <div class="row">

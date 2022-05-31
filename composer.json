@@ -12,6 +12,7 @@
         "doctrine/doctrine-bundle": "^2.1",
         "doctrine/doctrine-migrations-bundle": "^3.0",
         "doctrine/orm": "^2.7",
+        "easycorp/easyadmin-bundle": "3.*",
         "knplabs/knp-markdown-bundle": "^1.8",
         "knplabs/knp-time-bundle": "^1.11",
         "nelmio/cors-bundle": "^2.2",
@@ -53,6 +54,7 @@
         "doctrine/doctrine-fixtures-bundle": "^3.3",
         "symfony/debug-bundle": "5.3.*",
         "symfony/maker-bundle": "^1.15",
+        "symfony/phpunit-bridge": "^6.1",
         "symfony/var-dumper": "5.3.*",
         "symfony/web-profiler-bundle": "5.3.*",
         "zenstruck/foundry": "^1.1"

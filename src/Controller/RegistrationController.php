@@ -13,6 +13,8 @@ use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Symfony\Component\Routing\Annotation\Route;
 use SymfonyCasts\Bundle\VerifyEmail\Exception\VerifyEmailExceptionInterface;
 use SymfonyCasts\Bundle\VerifyEmail\VerifyEmailHelperInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
+
 
 class RegistrationController extends AbstractController
 {
@@ -48,7 +50,7 @@ class RegistrationController extends AbstractController
             // TODO: in a real app, send this as an email!
             $this->addFlash('success', 'Confirm your email at: '.$signatureComponents->getSignedUrl());
 
-            return $this->redirectToRoute('app_homepage');
+            return $this->redirectToRoute('app_forum');
         }
 
         return $this->render('registration/register.html.twig', [
@@ -88,7 +90,7 @@ class RegistrationController extends AbstractController
 
     /**
      * @Route("/verify/resend", name="app_verify_resend_email")
-     */
+          */
     public function resendVerifyEmail()
     {
         return $this->render('registration/resend_verify_email.html.twig');
