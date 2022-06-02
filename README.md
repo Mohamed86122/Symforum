@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, Je suis Mohamed SGHIR</h1>
+<h1 align="center">Bonjour 👋, Je suis Mohamed SGHIR</h1>
 <h3 align="center">Un développeur passionné frontend & backend du Maroc</h3>
 
 - 🔭 je travaille actuellement sur [Symforum](https://github.com/Mohamed86122/Symforum)
