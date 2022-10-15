@@ -24,9 +24,9 @@
 <p>SymForum est un site web proposant des questions et réponses sur un large choix de thèmes concernant la programmation informatique php du framework Symfony.</p>
 
 <h2 align="left">💻 Objectif du projet :</h2>
-<p>SymForum est un site de question réponse. Chaque membre peut voter pour les questions et réponses postées, faisant gagner des points, appelés réputation, à leurs auteurs. Il est également possible de voter contre (downvote) pour pénaliser l'auteur de la réponse et indiquer aux futurs lecteurs que cette réponse n'est pas pertinente11.
+<p>SymForum est un site de question réponse. Chaque membre peut voter pour les questions et réponses postées, faisant gagner des points, appelés réputation, à leurs auteurs. Il est également possible de voter contre (downvote) pour pénaliser l'auteur de la réponse et indiquer aux futurs lecteurs que cette réponse n'est pas pertinente.
 
-Le but de ces votes est de mettre en avant les réponses de qualité, tout en récompensant leurs auteurs12, leur donnant accès à des privilèges quand certains seuils de réputation sont atteints (par exemple : pouvoir voter, voir moins de publicités, pouvoir fermer les questions).</p><br>
+Le but de ces votes est de mettre en avant les réponses de qualité, tout en récompensant leurs auteurs, leur donnant accès à des privilèges quand certains seuils de réputation sont atteints (par exemple : pouvoir voter, voir moins de publicités, pouvoir fermer les questions).</p><br>
 
 <h2 align="left">👨‍💻 Navigation du projet :</h2>
 <img src="https://user-images.githubusercontent.com/76246460/172184360-82d950c2-1f03-4c75-9434-75aff0c1c43c.png" alt="Home">
